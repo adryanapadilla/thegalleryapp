@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7 App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+	
+	<div id="app">
+		<div class="view view-main view-init">
+			
+			<section id="panel-menu" class="panel panel-left panel-cover">
+
+            <div class="block perfil">
+
+                <div class="row">
+                    <article class="col-30">
+                        <img src="img/perfil.jpg" alt="" class="img-fluid">
+                    </article>
+                    <article class="col-70">
+                        <h6>The Gallery</h6>  <h4>Adriana Padilla</h4>
+                    </article>
+                </div>
+
+            </div>
+
+            <div id="menu-list" class="list media-list">
+              <ul>
+				<li>
+                  <a href="/home/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">home</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Inicio</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/lista/" class="item-link item-content panel-close">
+                    <div class="item-media">
+                     <span class="material-icons">nightlight</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Collares</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content panel-close">
+                      <div class="item-media">
+                        <span class="material-icons">sunny</span>
+                      </div>
+                    <div class="item-inner">
+                      <div class="item-title">Aritos</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">diamond</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Charms</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="/perfil/" class="item-link item-content panel-close" >
+                    <div class="item-media">
+                        <span class="material-icons">person</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Perfil</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">settings</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Configuración</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="item-link item-content panel-close">
+                    <div class="item-media">
+                        <span class="material-icons">info</span>
+                    </div>
+                    <div class="item-inner">
+                      <div class="item-title">Acerca de</div>
+                    </div>
+                  </a>
+                </li>
+            </ul>
+            </div>
+        </section>
+		
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+					<div class="left">
+						<a href="#" class="link"><span class="material-icons">settings</span></a>
+					</div>
+				  	<div class="title">The Gallery</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content">
+				  <h2 class="block-title-large block-title">The Gallery</h2>
+				   <section id="carousel" class="block">
+
+            <div class="swiper-container swiper-init" data-speed="400" data-space-between="10" data-slides-per-view="1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/carrusel1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/carrusel2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/carrusel3.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                </div>
+            </div>
+
+          </section>
+				  
+				  <h3 class="block-title">Collares</h3> 
+				  
+				  <section class="card-products block">
+
+                <div class="row">
+
+                    <article class="col">
+                        <div class="card">
+							<a href="/lista/" class="link">
+                           		 <img src="img/collar1.jpg" alt="" class="img-fluid">
+								</a>
+                            <h3>Coastal Red Agate Necklace</h3>
+                            <p>This look-at-me necklace is here to ensure you have your vacation jewelry looks sorted. </p>
+                            <h4>$159.00</h4>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card">
+                            <img src="img/collar2.jpg" alt="" class="img-fluid">
+                            <h3>Mixed Link Paperclip Chain Charm Necklace</h3>
+                            <p>Your favorite paperclip chain, plus all the extras.</p>
+                            <h4>$799.00</h4>
+                        </div>
+                    </article>
+                </div>
+					  
+					  <h3 class="block-title">Aritos</h3> 
+				
+				<div class="row">
+
+                    <article class="col">
+                        <div class="card">
+							<a href="/lista/" class="link">
+                           		 <img src="img/arito1.jpg" alt="" class="img-fluid">
+								</a>
+                            <h3>Lace Diamond Duo Hoops</h3>
+                            <p>Intricate details keep things interesting—and these hoops have it all figured out. </p>
+                            <h4>$1,120.00</h4>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card">
+                            <img src="img/aritos2.jpg" alt="" class="img-fluid">
+                            <h3>Sculptural Hoops</h3>
+                            <p>Your boldest hoops. So bold they have their own orbit.</p>
+                            <h4>$159.00</h4>
+                        </div>
+                    </article>
+                </div>
+					  <h3 class="block-title">Charms</h3> 
+					  <div class="row">
+
+                    <article class="col">
+                        <div class="card">
+							<a href="#" class="link">
+                           		 <img src="img/Charms1.jpg" alt="" class="img-fluid">
+								</a>
+                            <h3>Strength: Rose Pearl Coin Charm Pendant</h3>
+                            <p>Handcrafted in 14k gold featuring mother of pearl.</p>
+                            <h4>$479.00</h4>
+                        </div>
+                    </article>
+
+                    <article class="col">
+                        <div class="card">
+                            <img src="img/Charms2.jpg" alt="" class="img-fluid">
+                            <h3>Single Gemstone Cluster Hoop Charm</h3>
+                            <p>Swap it out any time for an entirely new look.</p>
+                            <h4>$78.00</h4>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+				  
+				  
+				  
+				  
+				  
+				  
+			  </section>
+
+			</section>
+			
+		</div>
+	</div>
+	
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+</body>
+</html>

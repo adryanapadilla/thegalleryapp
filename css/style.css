@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+
+
+body{
+font-family: 'Kalnia', serif;
+}
+
+h1,h2,h3,h4,h5{
+	margin: 5px 0;
+	color: #ADA6A1 !important;
+}
+
+
+.img-fluid{
+	max-width: 100%;
+}
+
+#panel-menu .perfil{
+	margin-top: 0px;
+	background-color: #eee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.perfil h6{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#menu-list.list{
+	font-size: 14px;
+}
+#menu-list span{
+	color: #EAD7CA;
+	font-size: 20px;
+}
+
+p{
+	color: #000 !important;
+}
+#list-categorias .item-media img{
+	width: 100px;
+}
+#list-categorias li{
+	box-shadow: 0px 0px 10px 5px #f2f2f2;
+	margin-bottom: 10px;
+}
+#list-categorias .item-title{
+	font-weight: 600;
+}
+#list-categorias .item-text{
+	font-weight: 400;
+	font-size: 13px;
+}
+#list-categorias .precio{
+	font-weight: 600;
+	font-size: 14px;
+}
+.center{
+	text-align: center;
+	color: #EAD7CA !important;
+}
+
+.button{
+	text-transform: inherit;
+}
+.button .icon{
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 22px;
+	color: #fff !important;
+}
+
+.card-products .card{
+	box-shadow: none;
+	background-color: #EAD7CA;
+	padding: 20px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#info-producto h4{
+	font-size: 20px;
+}
+
+#popup-confirmar{
+	padding: 80px 20px 40px;
+	text-align: center;
+}
+
+#popup-confirmar span{
+	color: ##EAD7CA;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+#popup-confirmar .button{
+	margin-top: 25px;
+}
+
+.title{
+	color: #ADA6A1!important;
+}
+
+.perfil{
+	color: #000 !important;
+}
+
+.registro{
+	text-align: center;
+	font-size: 60px!important;
+	margin-top: 60px;
+}
+
+
+h7{
+	font-size: 25px;
+	margin: 5px 0;
+}
+
+h6{
+	font-size: 30px;
+	margin: 5px 0;
+}
+
+p{
+	font-size: 16px;
+}
+
+
+.button-fill{
+	margin: 5px 0;
+	text-align: center !important;
+	background-color: #EAD7CA  !important;
+	color: #000000;
+	vertical-align: middle;
+	text-transform: inherit;
+	width: 200px;
+	display: inline-block;
+	
+}
+
+.button-round {
+	margin-left: 80px;
+}
+
+.stepper-fill{
+	background-color: #EAD7CA !important;
+	color: #fff;
+}
+
+
+.botonfinal{
+	text-align:center;
+	padding:2%;
+	}
+
+
+
+
+
+
+
+
+
+
